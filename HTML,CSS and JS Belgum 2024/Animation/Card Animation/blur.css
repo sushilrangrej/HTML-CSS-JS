@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("1296386.jpg") no-repeat;
+}
+
+.blur-card{
+    height: 400px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    border: solid black 10px;
+}

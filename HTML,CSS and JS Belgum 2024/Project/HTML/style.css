@@ -1,0 +1,18 @@
+body{
+    color: rgb(255, 234, 0);
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#paragrah{
+    color: aliceblue;
+}
+
+.theclass{
+    color: blue;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}

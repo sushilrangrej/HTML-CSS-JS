@@ -1,0 +1,45 @@
+<!-- Basic HTML structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World Program</title>
+</head>
+<body>
+    <!-- 1. Using element content -->
+    <h1 id="title">Original Text</h1>
+    <p id="demo">Original Paragraph</p>
+
+    <!-- 2. Button to trigger JavaScript -->
+    <button onclick="showMessage()">Click Me</button>
+
+    <!-- 3. Input and button -->
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="greetUser()">Greet</button>
+
+    <!-- JavaScript can be added in different ways -->
+
+    <!-- Method 1: Inline Script -->
+    <script>
+        // Change text when page loads
+        document.getElementById("title").innerHTML = "Hello World!";
+
+        // Function for button click
+        function showMessage() {
+            document.getElementById("demo").innerHTML = "Hello from JavaScript!";
+        }
+
+        // Function to greet user with input name
+        function greetUser() {
+            let name = document.getElementById("nameInput").value;
+            if(name === "") {
+                name = "World";
+            }
+            alert("Hello, " + name + "!");
+        }
+    </script>
+
+    <!-- Method 2: External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

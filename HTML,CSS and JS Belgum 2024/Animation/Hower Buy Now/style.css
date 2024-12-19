@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    font-size: 30px;
+    color: aliceblue;
+    height: 200px;
+    width: 200px;
+    background-color: #ff6161;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+div:hover{
+    background-color: #df3eff;
+}

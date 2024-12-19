@@ -1,0 +1,59 @@
+*{
+    font-family: 'poppines', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#e95c65, #e95c652f, #E95C65),url('bleach.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: linear-gradient(#e95c65, #e95c652f);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+
+.Logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    border-radius: 10px;
+    background: #fff;
+    color: #E95C65;
+}
